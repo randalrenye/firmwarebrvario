@@ -1,0 +1,5 @@
+{
+    "version": "V2.0",
+    "firmware_url": "https://github.com/randalrenye/firmwarebrvario/releases/download/V2.0/brvarioapp.ino.bin",
+    "description": "Melhorias no desempenho do variômetro e correção de bugs"
+}
