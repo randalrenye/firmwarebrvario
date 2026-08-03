@@ -3,6 +3,22 @@
 Todas as mudanças relevantes do firmware BRVARIO Normal serão documentadas
 neste arquivo a partir da versão 3.6.
 
+## 3.7 - 2026-08-03
+
+### Áudio
+
+- Cadência de subida levemente mais lenta entre +0,10 m/s e +1,00 m/s.
+- Curva de pausa inspirada no BRVARIO E-PAPER, aplicada de forma suave e
+  preservando a frequência e a duração original dos beeps.
+- Retorno progressivo à cadência já validada em +1,00 m/s, sem alterar o
+  comportamento nas ascendências superiores.
+
+### Compatibilidade
+
+- Versão interna atualizada para 3.7.
+- Mantido o nome `novobrvario.ino.bin` para compatibilidade com a atualização
+  OTA do aplicativo BRVARIO.
+
 ## 3.6 - 2026-08-03
 
 ### VARIO DINÂMICO

@@ -28,7 +28,7 @@ Bluetooth e configuração pelo aplicativo oficial.
 
 ## Versão atual
 
-**Firmware 3.6**
+**Firmware 3.7**
 
 O aplicativo consulta automaticamente a Release marcada como mais recente e
 baixa o arquivo `novobrvario.ino.bin`.
