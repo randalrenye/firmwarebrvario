@@ -3,6 +3,27 @@
 Todas as mudanças relevantes do firmware BRVARIO Normal serão documentadas
 neste arquivo a partir da versão 3.6.
 
+## 3.8 - 2026-08-14
+
+### VARIO DINÂMICO
+
+- Adicionado controle `DYNAMIC_ON` e `DYNAMIC_OFF` pelo aplicativo BRVARIO.
+- Configuração gravada na memória e restaurada automaticamente ao ligar.
+- `DYNAMIC_ON` mantido como padrão de fábrica e após restaurar as configurações.
+- Primeiro pulso dinâmico ampliado para as configurações de ascendência de
+  +0,10, +0,30 e +0,50 m/s, atuando até abaixo de +1,50 m/s.
+- Em +1,50 m/s ou acima, o som utiliza imediatamente a curva normal.
+- Com o recurso desligado, frequências, beeps e a cadência normal permanecem
+  ativos, incluindo os ajustes introduzidos na versão 3.7.
+
+### Compatibilidade
+
+- Migração automática mantém o recurso ligado em aparelhos atualizados sem
+  apagar as demais preferências existentes.
+- Versão interna atualizada para 3.8.
+- Mantido o nome `novobrvario.ino.bin` para compatibilidade com a atualização
+  OTA do aplicativo BRVARIO.
+
 ## 3.7 - 2026-08-03
 
 ### Áudio

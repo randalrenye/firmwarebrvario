@@ -19,7 +19,7 @@ Bluetooth e configuração pelo aplicativo oficial.
 - Variômetro sonoro com ajuste dos limiares de subida e descida.
 - Filtro Kalman ou filtro exponencial configurável.
 - Pré-termal e alerta de descendência forte.
-- VARIO DINÂMICO para indicar a entrada em uma nova subida.
+- VARIO DINÂMICO configurável para indicar a entrada em uma nova subida.
 - Modo silencioso e opção de desligar o som de descida.
 - Bluetooth Low Energy com integração LK8EX1.
 - Compatibilidade com XCTrack, FlySkyHy, XCSoar, Gaggle e SeeYou Navigator.
@@ -28,7 +28,7 @@ Bluetooth e configuração pelo aplicativo oficial.
 
 ## Versão atual
 
-**Firmware 3.7**
+**Firmware 3.8**
 
 O aplicativo consulta automaticamente a Release marcada como mais recente e
 baixa o arquivo `novobrvario.ino.bin`.
